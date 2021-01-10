@@ -1,0 +1,20 @@
+/** {
+  border: 1px solid red;
+}*/
+
+li>a { /* a filho de li */
+  color: red;
+  text-decoration: none;
+}
+
+div a { /* a contigo na div*/
+  color: green;
+}
+
+h1+p { /*p pós h1*/
+  color: hotpink;
+}
+
+h1~p { /*p proximo a h1*/
+  color: purple;
+}
